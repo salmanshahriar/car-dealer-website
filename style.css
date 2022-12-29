@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* fonts
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Raleway:wght@400;500;600;700&display=swap');
+
+/* global-section-start */
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff  !important;
+    color: #4F4F4F;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;  
+}
+h1,h2,h3{
+    color: #000000d0;
+    font-family: 'Poppins', sans-serif;  
+    font-weight: 600;
+    font-size: 25px;
+}
+p{
+    color: #4F4F4F;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* global-section-end */
+
+hr{
+    border: 0;
+height: 0;
+border-top: 1px solid rgba(0, 0, 0, 0.007);
+border-bottom: 1px solid #313131;
+}
+
+
+@keyframes animation-1 {
+    0%  {transform: translateX(100%);}
+    100%  {transform: translateX(0%);}
+  }
+  .hero-animation-1{
+    animation-name: animation-1;
+    animation-duration: 1s;
+    position: relative;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+
+  }
+
+
+  @keyframes animation-2 {
+    0%  {transform: translateX(-100%); opacity: 0;}
+    50%  { opacity: .5; }
+    100%   {transform: translateX(0%); opacity: 1;}
+  }
+  .hero-animation-2{
+    animation-name: animation-2;
+    animation-duration: 1s;
+    animation-delay: .8s;
+    position: relative;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    transform: translateX(0%);
+    animation-fill-mode: both;
+
+    
+  }
+
+    
+  @keyframes animation-3 {
+    0%  {transform: translateY(-100%); opacity: 0; }
+    50%  { opacity: .5; }
+    100%   {transform: translateY(0%); opacity: 1;}
+  }
+  .hero-animation-3{
+    animation-name: animation-3;
+    animation-duration: .5s;
+    animation-delay: 2s;
+    position: relative;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+  }
+  
+  @keyframes animation-4 {
+    0%  {transform: translateY(100%); opacity: 0; }
+    50%  { opacity: .5; }
+    100%   {transform: translateY(0%); opacity: 1;}
+  }
+  .hero-animation-4{
+    animation-name: animation-4;
+    animation-duration: .5s;
+    animation-delay: 2s;
+    position: relative;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+  }
+
