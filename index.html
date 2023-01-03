@@ -11,7 +11,10 @@
   <link rel="shortcut icon" type="img/x-icon" href="./image/favicon.ico">
 
   <!-- css-link mian.css     -->
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./app/index.css">
+
+  <!-- css-link animation.css     -->
+  <link rel="stylesheet" href="./app/animation.css">
 
   <!-- font-awsome -->
   <script src="https://kit.fontawesome.com/f5ed09c428.js" crossorigin="anonymous"></script>
@@ -48,7 +51,7 @@
         <div class="mx-auto max-w-6xl flex justify-between items-center py-3">
           <div class="flex justify-center items-center gap-3">
             <div class="header-logo-image	">
-              <img class=" w-16" src="./image/main-logo.png" alt="">
+              <img class=" w-16" src="./app/image/main-logo.png" alt="">
             </div>
             <div>
               <span class="header-logo-text ">
@@ -74,83 +77,160 @@
     <!-- main-start -->
     <main>
       <!-- hero-section-start -->
-      <section class="bg-black py-32 mb-44">
+      <section class="bg-black py-32 mb-32 2xl:mb-44">
         <div class="mx-auto max-w-6xl z-10 ">
           <div class="-mb-20 ">
             <p class="text-red-500 font-medium hero-animation-3	">LOOKING FOR A NEW CAR ?</p>
             <h1 class="text-white text-4xl font-extrabold hero-animation-2">ALL KINDS OF NEW <br>AND RECONDITIONED <br> VEHICLE <br></h1>
           </div>
           <div class="z-10 relative ">
-            <img class="hero-animation-1" src="./image/car-logo.webp" alt="">
+            <img class="hero-animation-1" src="./app/image/car-logo.webp" alt="">
           </div>
           <div class="-mt-11 z-20 relative ">
             <h1 class="text-white float-right text-4xl font-extrabold hero-animation-4">IMPORTER AND SELLER</h1>
           </div>
         </div>
         <div class="z-0 absolute ">
-          <img class="w-full " src="./image/dark-road-landscape.png" alt="" srcset="">
+          <img class="w-full " src="./app/image/dark-road-landscape.png" alt="" srcset="">
         </div>
       </section>
       <!-- hero-section-end -->
 
+      <!-- card-and-welcome-section-start -->
+      <!-- card-section -->
       <section>
         <div class="max-w-6xl mx-auto mb-16 flex justify-between items-center">
 
           <!-- card-1 -->
-          <div class="flex flex-col gap-7 text-center items-center bg-neutral-100 w-64  px-5 pt-10 h-80 card-box-shadow ">
-            <div class="w-28">
-              <img class="" src="./image/undraw_electric_car_b-7-hl.svg" alt="" srcset="">
+          <div class="flex flex-col gap-7 text-center items-center bg-neutral-100  w-64  px-5 pt-12 h-80 card-box-shadow ">
+            <div class="w-28 card-icon" >
+              <img class="" src="./app/image/undraw_by_my_car_hnre.svg" alt="" srcset="">
             </div>
             <div>
-              <h3 class=" text-neutral-900 text-lg font-semibold	">NEW VEHICLES</h3>
+              <h3 class=" text-neutral-900 text-lg font-semibold 	mt-1">NEW VEHICLES</h3>
             </div>
             <div>
-              <p class="text-gray-400 text-sm font-medium pb-8">Get yourself nice and relaxed and settled. Concentrate on your breathing, engage in the</p>
+              <p class="text-gray-500 text-sm font-medium pb-8 card-text">Get yourself nice and relaxed and settled. Concentrate on your breathing, engage in the</p>
             </div>
           </div>
 
           <!-- card-2 -->
           <div class="flex flex-col gap-7 text-center items-center bg-neutral-100 w-64 px-5 pt-9 h-80 card-box-shadow ">
             <div class="w-28">
-              <img class="" src="./image/undraw_opinion_re_jix4.svg" alt="" srcset="">
+              <img class="" src="./app/image/undraw_opinion_re_jix4.svg" alt="" srcset="">
             </div>
             <div>
               <h3 class=" text-neutral-900 text-lg font-semibold	">VEHICLES SERVICE</h3>
             </div>
             <div>
-              <p class="text-gray-400 text-sm font-medium ">Get yourself nice and relaxed and settled. Concentrate on your breathing, engage in the</p>
+              <p class="text-gray-500 text-sm font-medium ">Get yourself nice and relaxed and settled. Concentrate on your breathing, engage in the</p>
             </div>
           </div>
 
           <!-- card-3 -->
-          <div class="flex flex-col gap-7 text-center items-center bg-neutral-100 w-64 px-5 pt-10 h-80 card-box-shadow">
+          <div class="flex flex-col gap-7 text-center items-center bg-neutral-100 w-64 px-5 pt-11 h-80 card-box-shadow">
             <div class="w-32">
-              <img class="" src="./image/undraw_online_payments_re_y8f2.svg" alt="" srcset="">
+              <img class="" src="./app/image/undraw_online_payments_re_y8f2.svg" alt="" srcset="">
             </div>
             <div>
-              <h3 class=" text-neutral-900 text-lg font-semibold">VEHICLES PARTS</h3>
+              <h3 class=" text-neutral-900 text-lg font-semibold -mt-0.5">VEHICLES PARTS</h3>
             </div>
             <div>
-              <p class="text-gray-400 text-sm font-medium ">Get yourself nice and relaxed and settled. Concentrate on your breathing, engage in the</p>
+              <p class="text-gray-500 text-sm font-medium ">Get yourself nice and relaxed and settled. Concentrate on your breathing, engage in the</p>
             </div>
           </div>
 
           <!-- card-4 -->
           <div class="flex flex-col gap-7 text-center items-center bg-neutral-100 w-64 px-5 pt-14 h-80 card-box-shadow">
             <div class="w-32">
-              <img class="" src="./image/undraw_vehicle_sale_a645.svg" alt="" srcset="">
+              <img class="" src="./app/image/undraw_vehicle_sale_a645.svg" alt="" srcset="">
             </div>
             <div>
               <h3 class=" text-neutral-900 text-lg font-semibold	">OLD VEHICLES</h3>
             </div>
             <div>
-              <p class="text-gray-400 text-sm font-medium ">Get yourself nice and relaxed and settled. Concentrate on your breathing, engage in the</p>
+              <p class="text-gray-500 text-sm font-medium ">Get yourself nice and relaxed and settled. Concentrate on your breathing, engage in the</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- welcome-section -->
+        <div class="max-w-6xl mx-auto flex justify-between items-center ">
+          <div class="flex flex-col w-6/12">
+            <div class=" text-justify">
+              <h3 class="text-2xl font-semibold text-neutral-900 pb-6">WELCOME TO MAHIB AUTOMOBILES</h3>
+              <p class="text-gray-500 text-base font-normal pb-3 "><i> Mahib Automobiles is a Professional Recondition Car importer & Wholesaler Platform. <br> <br>
+                 We're dedicated to providing you the best of <b>Recondition Car importer & Wholesaler</b>, with a focus on dependability and best service , trusted dealer, one year free service. We hope you enjoy our Recondition Car importer & Wholesaler as much as we enjoy offering them to you!</i></p>
             </div>
           </div>
 
+          <div class="w-5/12 grid grid-cols-2 grid-rows-2 items-center justify-center">
+            <!-- vehicles-stock -->
+            <div class="flex items-center gap-4 pt-9 pb-4 pl-12  boder-right boder-bottom ">
+              <div class="">
+                <p class=" text-xs text-black font-bold">VEHICLES STOCK</p>
+                <h1 class="text-right text-red-600 text-4xl font-semibold">20</h1>
+              </div>
+              <div class="text-gray-300">
+                <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
+                  <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+                </svg>
+              </div>
+            </div>
+            <!-- dealer-reviews -->
+            <div class="flex items-center gap-4 pt-9  pb-4 pl-8  boder-bottom">
+              <div class="text-gray-300">
+                <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="currentColor" class="bi bi-chat-dots-fill" viewBox="0 0 16 16">
+                  <path d="M16 8c0 3.866-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7zM5 8a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                </svg>
+              </div>
+              <div class=" ">
+                <p class=" text-xs text-black font-bold">DEALER REVIEWS</p>
+                <h1 class="text-left text-red-600 text-4xl font-semibold">28</h1>
+              </div>
+            </div>
+            <!-- happy-customer -->
+            <div class="flex items-center gap-4 pt-4 pb-9 pl-10 boder-right ">
+              <div class=" ">
+                <p class=" text-xs text-black font-bold">HAPPY CUSTOMER</p>
+                <h1 class="text-right text-red-600 text-4xl font-semibold">36</h1>
+              </div>
+              <div class="text-gray-300">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                  <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                </svg>
+              </div>
+            </div>
+            <!-- awards -->
+            <div class="flex items-center gap-4 pt-4 pb-9 pl-8">
+              <div class="text-gray-300">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                  <path d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z"/>
+                </svg>
+              </div>
+              <div class=" ">
+                <p class=" text-xs text-black font-bold">AWARDS</p>
+                <h1 class="text-left text-red-600 text-4xl font-semibold">4</h1>
+              </div>
+            </div>
+          </div>
         </div>
-
+        <div class="flex flex-col max-w-6xl mx-auto">
+          <div class="w-36">
+            <img src="./app/image/Signature-MD-Zakir-Hossain.png" alt="">
+          </div>
+          <div>
+            <p class="text-sm text-red-600 font-semibold pb-1">MAHIB AUTOMOBILES FOUNDER</p>
+            <p class="text-sm text-gray-500 ">MD Zakir Hossain</p>
+          </div>
+        </div>
+        <div>
+          <img src="./app/image/car-with-a-women-bg.png" alt="" srcset="">
+        </div>
       </section>
+
+        <!-- card-and-welcome-section-end -->
+
     </main>
     <!-- main-end -->
     <!-- footer-start -->

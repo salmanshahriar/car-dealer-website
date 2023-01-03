@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* fonts
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Raleway:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+/* global-section-start */
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff  !important;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;  
+}
+
+h1,h2,h3{
+    font-family: 'Poppins', sans-serif;  
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+}
+
+/* global-section-end */
+
+hr{
+    border: 0;
+height: 0;
+border-top: 1px solid rgba(0, 0, 0, 0.007);
+border-bottom: 1px solid #313131;
+}
+
+/* card-section-start */
+.card-box-shadow{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.card-icon:nth-child(2){
+  display: none;
+}
+
+.card-icon:nth-child(1):hover{
+  display: none;
+}
+/* card-section-end */
+
+.boder-right{
+  border-right: 1px solid #d1d5dbbb;
+}
+
+.boder-bottom{
+  border-bottom: 1px solid #d1d5dbbb;
+}
+
+
+
+@media screen {
+  
+}
