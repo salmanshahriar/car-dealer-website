@@ -11,6 +11,8 @@
     animation-timing-function: ease;
     transform: translateX(0%);
     animation-fill-mode: both;
+    overflow-x: hidden !important;
+    
   }
   
   
