@@ -18,8 +18,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: #ffffff  !important;
-    overflow-y: scroll;
-    overflow-x: hidden !important;
+    overflow-x: hidden;
 }
 
 html {
@@ -27,7 +26,7 @@ html {
     font-family: 'Poppins', sans-serif;  
 }
 
-h1,h2,h3{
+h1,h2,h3,h4,h5,h6{
     font-family: 'Poppins', sans-serif;  
 }
 
@@ -48,16 +47,9 @@ border-bottom: 1px solid #313131;
 .card-box-shadow{
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 }
-
-.card-icon:nth-child(2){
-  display: none;
-}
-
-.card-icon:nth-child(1):hover{
-  display: none;
-}
 /* card-section-end */
 
+/* welcome-section-start */
 .boder-right{
   border-right: 1px solid #d1d5dbbb;
 }
@@ -65,9 +57,4 @@ border-bottom: 1px solid #313131;
 .boder-bottom{
   border-bottom: 1px solid #d1d5dbbb;
 }
-
-
-
-@media screen {
-  
-}
+/* welcome-section-end */
