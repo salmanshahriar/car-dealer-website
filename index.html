@@ -22,6 +22,11 @@
   </head>
   <body class="scroll-smooth">
 
+
+
+
+
+
     <!-- header-start -->
     <header class="bg-black">
       <div class="flex mx-auto xl:max-w-6xl lg:max-w-4xl md:max-w-2xl max-w-xs justify-between items-center text-white py-2  ">
@@ -30,12 +35,12 @@
             <i class='bx bx-time-five'></i>
           </div>
           <div class="">
-            <span class="mb-[1px] block">10:00 AM TO 8:00 PM</span>
+            <span class="mb-[1px] lg:text-base md:text-sm block">10:00 AM TO 8:00 PM</span>
           </div>
         </div>
         <div class="flex gap-3 justify-center items-center ">
           <div class="hover:text-red-500 active:text-red-600 ease-in duration-150 flex items-center">
-            <a class="flex gap-1 items-center" href="tel:+8801866027742"><span><i class='bx bxs-phone' ></i></span> <span class="mb-[1px] block">(+880) 1866-027742</span></a>
+            <a class="flex gap-1 items-center" href="tel:+8801866027742"><span><i class='bx bxs-phone' ></i></span> <span class="lg:mb-[1px] lg:mb-[1px] lg:text-base md:text-sm block">(+880) 1866-027742</span></a>
           </div>
           <div>
             <a target="_blank" href="https://www.facebook.com/Mahib-Automobiles-102605455883297"><i class="bx bxl-facebook-square text-center hover:text-red-500 active:text-red-600 ease-in duration-150"></i></a>
@@ -47,28 +52,55 @@
       </div>
       <hr>
       <!-- navbar -->
-      <nav class="">
-        <div class="mx-auto xl:max-w-6xl lg:max-w-4xl md:max-w-2xl max-w-xs flex justify-between items-center py-3">
+      
+
+        <div class="mx-auto xl:max-w-6xl lg:max-w-4xl md:max-w-2xl max-w-xs flex justify-between items-center lg:py-3 md:py-1">
           <div class="flex justify-center items-center gap-3">
             <div class="header-logo-image	">
-              <img class=" w-16" src="./app/image/main-logo.png" alt="">
+              <img class=" lg:w-16 md:w-12" src="./app/image/main-logo.png" alt="">
             </div>
             <div>
-              <span class="header-logo-text ">
-                <h3 class="text-white font-medium text-xl	">MAHIB AUTOMOBILES</h3>
-                <!-- <p class="text-white  font-normal text-xs">A SISTER CONCERN OF KD GROUP</p> -->
-              </span>
+          
+                
+                <div class="flex flex-col justify-center">
+                  <div>
+                    <h3 class="text-white font-medium lg:text-base md:text-xs	">MAHIB</h3>
+                  </div>
+                  <div class="lg:-mt-2 md:-mt-1">
+                    <h3 class="text-white font-medium lg:text-base md:text-xs">AUTOMOBILES</h3>
+                  </div>
+                </div>
+
             </div>
           </div>
-          <div>
-            <div class=" flex text-white font-normal gap-4 text-base ">
+          <!-- <div>
+            <div class=" flex text-white font-normal gap-4 text-base  md:hidden sm:hidden lg:flex">
               <div class="text-red-500 active:text-red-600 ease-in duration-150"><a href="">HOME</a></div>
               <div class="hover:text-red-500 active:text-red-600 ease-in duration-150"><a href="">OUR STOCK</a></div>
               <div class="hover:text-red-500 active:text-red-600 ease-in duration-150"><a href="">QUESTIONS</a></div>
               <div class="hover:text-red-500 active:text-red-600 ease-in duration-150"><a href="">CONTACT US</a></div>
               <div class="hover:text-red-500 active:text-red-600 ease-in duration-150"><a href="">ABOUT</a></div>
             </div>
-          </div>
+            
+          </div> -->
+
+            <!-- hambuger start -->
+            <div class="lg:">
+              <div id="burger-menu">
+                <span></span>
+              </div>
+              
+              <div id="menu">
+                <div class="">
+                  <div class="text-red-500 text-2xl active:text-red-600 ease-in duration-150"><a href="">HOME</a></div>
+                  <div class="text-white text-2xl hover:text-red-500 active:text-red-600 ease-in duration-150"><a href="">OUR STOCK</a></div>
+                  <div class="text-white text-2xl hover:text-red-500 active:text-red-600 ease-in duration-150"><a href="">QUESTIONS</a></div>
+                  <div class="text-white text-2xl hover:text-red-500 active:text-red-600 ease-in duration-150"><a href="">CONTACT US</a></div>
+                  <div class="text-white text-2xl hover:text-red-500 active:text-red-600 ease-in duration-150"><a href="">ABOUT</a></div>
+                </div>
+              </div>
+            </div>
+            <!-- hambuger end -->
         </div>
     </nav>
     </header>
@@ -77,17 +109,17 @@
     <!-- main-start -->
     <main>
       <!-- hero-section-start -->
-      <section class="bg-black py-32 mb-32 2xl:mb-44">
+      <section class="bg-black py-32 2xl:mb-44 xl:mb-32 lg:mb-26 md:mb-16">
         <div class="mx-auto xl:max-w-6xl lg:max-w-4xl md:max-w-2xl max-w-xs z-10  ">
-          <div class="-mb-20 ">
-            <p class="text-red-500 font-medium hero-animation-3	">LOOKING FOR A NEW CAR ?</p>
-            <h1 class="text-white text-4xl font-extrabold hero-animation-2">ALL KINDS OF NEW <br>AND RECONDITIONED <br> VEHICLE <br></h1>
+          <div class="xl:-mb-[80px] lg:-mb-[60px] md:-mb-[46px]  ">
+            <p class="text-red-500 font-medium lg:text-base md:text-sm   hero-animation-3	">LOOKING FOR A NEW CAR ?</p>
+            <h1 class="text-white xl:text-6xl lg:text-5xl  md:text-4xl font-extrabold hero-animation-2">WE OFFER YOU<br></h1>
           </div>
           <div class="z-10 relative ">
             <img class="hero-animation-1" src="./app/image/car-logo.webp" alt="">
           </div>
-          <div class="-mt-11 z-20 relative ">
-            <h1 class="text-white float-right text-4xl font-extrabold hero-animation-4">IMPORTER AND SELLER</h1>
+          <div class="xl:-mt-[75px] lg:-mt-[65px] md:-mt-[50px]  z-20 relative ">
+            <h1 class="text-white float-right xl:text-4xl lg:text-3xl  md:text-2xl  font-extrabold hero-animation-4">THE BEST</h1>
           </div>
         </div>
         <div class="z-0 absolute ">
@@ -99,28 +131,28 @@
       <!-- card-and-welcome-section-start -->
       <!-- card-section -->
       <section>
-        <div class="xl:max-w-6xl lg:max-w-4xl md:max-w-2xl max-w-xs mx-auto  mb-16 flex justify-between items-center">
+        <div class="xl:max-w-6xl lg:max-w-4xl md:max-w-2xl max-w-xs mx-auto  mb-16 lg:flex  md:grid md:grid-rows-2 md:grid-flow-col xl:gap-11  lg:gap-6 md:gap-x-12 md:gap-y-8 lg:items-center">
 
           <!-- card-1 -->
-          <div class="flex flex-col gap-7 text-center items-center bg-neutral-100 xl:w-64 lg:w-52 xl:h-80 lg:h-72 px-5 pt-12 card-box-shadow ">
-            <div class="w-28 card-icon" >
+          <div class="flex flex-col gap-7 text-center items-center bg-neutral-100 xl:w-64 lg:w-52 md:w-[310px] xl:h-80 lg:h-72 md:h-64  px-6 pt-12 card-box-shadow ">
+            <div class="lg:w-28 md:w-16 " >
               <img class="" src="./app/image/undraw_by_my_car_hnre.svg" alt="" srcset="">
             </div>
             <div>
-              <h3 class=" text-neutral-900 text-lg font-semibold 	mt-1">NEW VEHICLES</h3>
+              <h3 class=" text-neutral-900 lg:text-lg md:text-sm font-semibold 	mt-1">NEW VEHICLES</h3>
             </div>
             <div>
-              <p class="text-gray-500 text-sm xl:text-sm lg:text-xs font-medium pb-8 card-text">Get yourself nice and relaxed and settled. Concentrate on your breathing, engage in the</p>
+              <p class="text-gray-500 md:text-sm xl:text-sm lg:text-xs font-medium pb-8 card-text">Get yourself nice and relaxed and settled. Concentrate on your breathing, engage in the</p>
             </div>
           </div>
 
           <!-- card-2 -->
-          <div class="flex flex-col gap-7 text-center items-center bg-neutral-100 xl:w-64 lg:w-52 xl:h-80 lg:h-72 px-5 pt-9 card-box-shadow ">
-            <div class="w-28">
+          <div class="flex flex-col gap-7 text-center items-center bg-neutral-100 xl:w-64 lg:w-52 md:w-[310px] xl:h-80 lg:h-72 md:h-64  px-5 pt-9 card-box-shadow ">
+            <div class="lg:w-28 md:w-20 ">
               <img class="" src="./app/image/undraw_opinion_re_jix4.svg" alt="" srcset="">
             </div>
             <div>
-              <h3 class=" text-neutral-900 text-lg font-semibold	">VEHICLES SERVICE</h3>
+              <h3 class=" text-neutral-900 lg:text-lg md:text-sm  font-semibold	">VEHICLES SERVICE</h3>
             </div>
             <div>
               <p class="text-gray-500 text-sm xl:text-sm lg:text-xs font-medium ">Get yourself nice and relaxed and settled. Concentrate on your breathing, engage in the</p>
@@ -128,12 +160,12 @@
           </div>
 
           <!-- card-3 -->
-          <div class="flex flex-col gap-7 text-center items-center bg-neutral-100 xl:w-64 lg:w-52 xl:h-80 lg:h-72  px-5 pt-11 card-box-shadow">
-            <div class="w-32">
+          <div class="flex flex-col gap-7 text-center items-center bg-neutral-100 xl:w-64 lg:w-52 md:w-[310px] xl:h-80 lg:h-72 md:h-64   px-5 pt-11 card-box-shadow ">
+            <div class="lg:w-32 md:w-20 ">
               <img class="" src="./app/image/undraw_online_payments_re_y8f2.svg" alt="" srcset="">
             </div>
             <div>
-              <h3 class=" text-neutral-900 text-lg font-semibold -mt-0.5">VEHICLES PARTS</h3>
+              <h3 class=" text-neutral-900 lg:text-lg md:text-sm  font-semibold -mt-0.5">VEHICLES PARTS</h3>
             </div>
             <div>
               <p class="text-gray-500 text-sm xl:text-sm lg:text-xs font-medium ">Get yourself nice and relaxed and settled. Concentrate on your breathing, engage in the</p>
@@ -141,12 +173,12 @@
           </div>
 
           <!-- card-4 -->
-          <div class="flex flex-col gap-7 text-center items-center bg-neutral-100 xl:w-64 lg:w-52 xl:h-80 lg:h-72 px-5 pt-14  card-box-shadow">
-            <div class="w-32">
+          <div class="flex flex-col gap-7 text-center items-center bg-neutral-100 xl:w-64 lg:w-52 md:w-[310px] xl:h-80 lg:h-72 md:h-64 px-5 pt-14  card-box-shadow">
+            <div class="lg:w-32 md:w-20">
               <img class="" src="./app/image/undraw_vehicle_sale_a645.svg" alt="" srcset="">
             </div>
             <div>
-              <h3 class=" text-neutral-900 text-lg font-semibold	">OLD VEHICLES</h3>
+              <h3 class=" text-neutral-900 lg:text-lg md:text-sm  font-semibold	">OLD VEHICLES</h3>
             </div>
             <div>
               <p class="text-gray-500 text-sm xl:text-sm lg:text-xs font-medium ">Get yourself nice and relaxed and settled. Concentrate on your breathing, engage in the</p>
@@ -156,15 +188,15 @@
 
         <!-- welcome-section -->
         <div class="xl:max-w-6xl lg:max-w-4xl md:max-w-2xl max-w-xs mx-auto flex justify-between items-center ">
-          <div class="flex flex-col w-6/12">
+          <div class="flex flex-col lg:w-6/12 md:w-10/12">
             <div class=" text-justify">
-              <h3 class="text-2xl font-semibold text-neutral-900 pb-6">WELCOME TO MAHIB AUTOMOBILES</h3>
-              <p class="text-gray-500 text-base  pb-3 "><i> Mahib Automobiles is a Professional Recondition Car importer & Wholesaler Platform. <br> <br>
+              <h3 class="lg:text-2xl md:text-lg font-semibold text-neutral-900 pb-6">WELCOME TO MAHIB AUTOMOBILES</h3>
+              <p class="text-gray-500 lg:text-base md:text-sm  pb-3 "><i> Mahib Automobiles is a Professional Recondition Car importer & Wholesaler Platform. <br> <br>
                  We're dedicated to providing you the best of <b>Recondition Car importer & Wholesaler</b>, with a focus on dependability and best service , trusted dealer, one year free service. We hope you enjoy our Recondition Car importer & Wholesaler as much as we enjoy offering them to you!</i></p>
             </div>
           </div>
 
-          <div class="w-5/12 grid grid-cols-2 lg:grid-cols-2 items-center justify-center">
+          <div class="w-5/12 grid grid-cols-2 lg:grid-cols-2 lg:grid-cols-2 items-center justify-center md:hidden lg:grid ">
             <!-- vehicles-stock -->
             <div class="flex items-center gap-4 pt-9 pb-4 xl:pl-12 lg:pl-3 boder-right boder-bottom ">
               <div class="">
@@ -208,12 +240,12 @@
           </div>
         </div>
         <div class="flex flex-col xl:max-w-6xl lg:max-w-4xl md:max-w-2xl max-w-xs mx-auto ">
-          <div class="w-36">
+          <div class="lg:w-36 md:w-32">
             <img src="./app/image/Signature-MD-Zakir-Hossain.png" alt="">
           </div>
           <div>
-            <p class="text-sm text-red-600 font-semibold pb-1">MAHIB AUTOMOBILES FOUNDER</p>
-            <p class="text-sm text-gray-500 ">MD Zakir Hossain</p>
+            <p class="lg:text-sm md:text-xs text-red-600 font-semibold pb-1">MAHIB AUTOMOBILES FOUNDER</p>
+            <p class="lg:text-sm md:text-xs  text-gray-500 ">MD Zakir Hossain</p>
           </div>
         </div>
         <div>
@@ -230,6 +262,6 @@
 
     </footer>
     <!-- footer-end -->
-  
+  <script src="./app/main.js"></script>
   </body>
 </html>
