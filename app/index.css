@@ -184,6 +184,8 @@ body::-webkit-scrollbar-thumb {
   list-style:none;
 }
 
+
+
 /* gallary */
 
 
@@ -239,4 +241,10 @@ body::-webkit-scrollbar-thumb {
 
 }
 
+.bg-footer{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: rgb(22,22,22);
+  background: linear-gradient(90deg, rgba(22,22,22,1) 0%, rgba(0,0,0,0.9948354341736695) 50%, rgba(22,22,22,1) 100%);
+  }
 /* footer-end */
