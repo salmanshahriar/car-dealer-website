@@ -227,6 +227,104 @@ body::-webkit-scrollbar-thumb {
 
 
 
+#slider {
+  overflow: hidden;
+  width: 100vw;
+}
+
+#slider ul {
+  list-style: none;
+}
+
+#slider ul li {
+  height: 500px;
+  width: 100vw;
+  float: left;
+}
+
+#slider ul li img {
+  height: 600px;
+  width: 100vw;
+} 
+
+a.control_prev, a.control_next {
+  background: rgba(0,0,0,0.3);
+  border-radius: 50%;
+  top: 40%;
+}
+
+a.control_prev:hover, a.control_next:hover {
+  -webkit-transition: all 0.2s ease;
+}
+
+a.control_next {
+  right: 0;
+}
+
+/* Dot Indicators */
+#s1 {
+  padding: 6px;
+  left: 50%;
+  bottom: 25px;
+  margin-left: -36px;
+  border-radius: 20px;
+  z-index: 999;
+}
+
+#s2 {
+  padding: 6px;
+  left: 50%;
+  bottom: 25px;
+  margin-left: -12px;
+  border-radius: 20px;
+  z-index: 999;
+}
+
+#s3 {
+  padding: 6px;
+  left: 50%;
+  bottom: 25px;
+  margin-left: 12px;
+  border-radius: 20px;
+  z-index: 999;
+}
+
+#s4 {
+  padding: 6px;
+  left: 50%;
+  bottom: 25px;
+  margin-left: 36px;
+  border-radius: 20px;
+  z-index: 999;
+}
+
+.active {
+    background-color: #48BB78;
+  opacity: 1;
+}
+
+#Slide1:checked + #s1 {
+  background-color: #48BB78;
+  opacity: 1;
+}
+
+#Slide2:checked + #s2 {
+    background-color: #48BB78;
+  opacity: 1;
+}
+
+#Slide3:checked + #s3 {
+    background-color: #48BB78;
+  opacity: 1;
+}
+
+#Slide4:checked + #s4 {
+    background-color: #48BB78;
+  opacity: 1;
+}
+
+
+
 /* footer-start */
 .bar{
   display: flex;
