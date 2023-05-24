@@ -1,10 +1,3 @@
-﻿<h3>A website for a Car Dealer company or showroom..</h3> 
-  </br><b>By:</b> <a href="https://linktr.ee/salmanshahriar">Salman Shahriar</a> </br>
-  <b>Code used:</b> html, css, tailwind, javascript
-  </br><b>Pages:</b> 3 (home, contact, about)
-  
-  </br><b>Future plan:</b> adding a new page (stock.html) to post car stocks and adding a</br>admin panel page for publishing a post, edit a post, delete a post and admin login page also :)
-
 
 # Car Dealer Website
 
@@ -37,3 +30,5 @@ The following enhancements are planned for the website:
 - **Admin Panel:** Create an admin panel with features such as publishing a post, editing a post, deleting a post, and an admin login page for authentication.
 
 Feel free to explore the website and provide feedback for improvements.
+
+ 
